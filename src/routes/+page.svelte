@@ -14,71 +14,71 @@
 
   // Data
   const heroImages = [
-    "https://images.unsplash.com/photo-1522163182402-834f871fd851?q=80&w=600&auto=format&fit=crop", // Climbing
-    "https://images.unsplash.com/photo-1544967082-d9d25d867d66?q=80&w=600&auto=format&fit=crop", // Bench/View
-    "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=80&w=600&auto=format&fit=crop", // Hiking/Mountain
-    "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?q=80&w=600&auto=format&fit=crop", // Running
-    "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?q=80&w=600&auto=format&fit=crop", // Snow
-    "https://images.unsplash.com/photo-1596329606822-790d946d9e29?q=80&w=600&auto=format&fit=crop"  // Park
+    "/generated/image-close-up-of-natural-plant-leaves-with-wa-1765517685282-0.webp",
+    "/generated/image-sustainable-skincare-products-with-natur-1765517688117-1.webp",
+    "/generated/image-honeycomb-structure-in-nature-with-golde-1765517690627-2.webp",
+    "/generated/image-laboratory-scientist-examining-plant-ext-1765517692929-3.webp",
+    "/generated/image-organic-botanical-ingredients-arranged-a-1765517695300-4.webp",
+    "/generated/image-person-holding-eco-friendly-product-in-n-1765517697784-5.webp"
   ];
 
   const benefitCards = [
     {
-      title: "All your data. One place.",
-      desc: "Holo takes into account your lifestyle and habits, your past results, and connects your wearable data.",
-      image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=800&auto=format&fit=crop"
+      title: "Nature-backed positioning.",
+      desc: "Gain authentic scientific credibility with biomimicry principles that translate nature's 3.8 billion years of R&D into your products.",
+      image: "/generated/image-wellness-brand-founder-working-at-desk-w-1765517700033-6.webp"
     },
     {
-      title: "Better control over your performance.",
-      desc: "Start thriving by tracking your daily strain, recovery and sleep.",
-      image: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?q=80&w=800&auto=format&fit=crop"
+      title: "Research access you can trust.",
+      desc: "Access comprehensive biomimicry research and natural formulation expertise without building your own lab.",
+      image: "/generated/image-research-laboratory-with-natural-plant-s-1765517702363-7.webp"
     },
     {
-      title: "Proactive care.",
-      desc: "Health is not just the absence of illness but the engagement with vitality everyday.",
-      image: "https://images.unsplash.com/photo-1544717305-2782549b5136?q=80&w=800&auto=format&fit=crop"
+      title: "Sustainable innovation.",
+      desc: "Create products that perform better by learning from nature's proven solutions, not synthetic shortcuts.",
+      image: "/generated/image-sustainable-product-formulation-with-nat-1765517704612-8.webp"
     }
   ];
 
   const steps = [
     {
       step: 1,
-      title: "Chose the plan that fits you better.",
-      desc: "Two options available. Get the Core plan with 110+ biomarkers to access the most advance lab test or choose the Starter plan to test 60+ essential biomarkers.",
+      title: "Choose your innovation path.",
+      desc: "Select from our Starter or Premium biomimicry research packages. Access nature-based formulation principles tailored to your product category.",
       image: "plan"
     },
     {
       step: 2,
-      title: "Schedule your appointment.",
-      desc: "Choose the most convenient lab location for you and follow the instructions before the test.",
+      title: "Discovery consultation.",
+      desc: "Our biomimicry experts analyze your product goals and identify relevant natural solutions from our research database.",
       image: "schedule"
     },
     {
       step: 3,
-      title: "Receive first results.",
-      desc: "Within 24 hours directly on your app. When all your results are available, our medical team will start working on your Clinician Notes.",
+      title: "Formulation development.",
+      desc: "Receive your custom nature-based formulations with complete ingredient sourcing and scientific documentation.",
       image: "results"
     },
     {
       step: 4,
-      title: "Your Clinician Notes are ready.",
-      desc: "Receive your Clinician Notes and personalized Action Plan within 7 days from your results.",
+      title: "Testing and refinement.",
+      desc: "We validate formulations for safety and efficacy, providing transparent test results and certification documentation.",
       image: "notes"
     },
     {
       step: 5,
-      title: "Start improving.",
-      desc: "Continue your health journey together with Holo AI and your Action Plan. Recheck in 6 months with the Follow-up test.",
+      title: "Launch and scale.",
+      desc: "Go to market with confidence. Access ongoing support, marketing materials, and sourcing as you scale to 50K monthly orders.",
       image: "improve"
     }
   ];
 
   const faqs = [
-    "What does a Holo membership include?",
-    "Is Holo for you?",
-    "What more does Holo offer than my regular doctor or insurance?",
-    "I recently got tested. Should I wait to join Holo?",
-    "Which biomarkers are included in the Holo membership?"
+    "What is biomimicry and how does it apply to product development?",
+    "How do you ensure ingredient sustainability and transparency?",
+    "What product categories do you work with?",
+    "How long does the formulation process take?",
+    "Can you help us scale to 50K monthly orders?"
   ];
 </script>
 
@@ -88,13 +88,13 @@
   <!-- Hero Section -->
   <section class="pt-32 pb-16 md:pt-40 md:pb-24 px-6 text-center max-w-7xl mx-auto">
     <h1 class="text-4xl md:text-6xl lg:text-7xl font-medium tracking-tight text-[#1A1A1A] mb-6 leading-[1.1]">
-      Your companion<br />for lifelong vitality.
+      Nature's solutions.<br />Your innovation.
     </h1>
     <p class="text-gray-600 text-lg md:text-xl max-w-3xl mx-auto mb-10 leading-relaxed font-light">
-      Test 110+ biomarkers every year, track all your health in a single place, and get insights from top doctors. All starting at just €199.
+      Transform your wellness brand with biomimicry-backed formulations. Access 3.8 billion years of nature's R&D to create products eco-conscious parents trust.
     </p>
     <button class="bg-[#1A1A1A] text-white px-8 py-3.5 rounded-sm font-medium hover:bg-black transition-colors">
-      Start testing
+      Explore solutions
     </button>
   </section>
 
@@ -103,7 +103,7 @@
     <div class="flex gap-4 px-6 min-w-max">
       {#each heroImages as img, i}
         <div class="relative w-48 h-64 md:w-64 md:h-80 rounded-3xl overflow-hidden flex-shrink-0">
-          <img src={img} alt="Lifestyle" class="w-full h-full object-cover" />
+          <img src={img} alt="Nature-inspired sustainable products" class="w-full h-full object-cover" />
         </div>
       {/each}
     </div>
@@ -149,13 +149,13 @@
       <!-- Content -->
       <div class="w-full md:w-1/2 space-y-8">
         <h2 class="text-3xl md:text-4xl font-medium leading-tight text-[#1A1A1A]">
-          Your health at a glance.<br />
-          See your daily Strain, Recovery and Sleep goals. Explore your biomarkers, understand what they mean, and access your Personalized Report, including your Action Plan created after your test.
+          Your formulation partner.<br />
+          Access our biomimicry research database, track product development, and receive transparent sourcing documentation that builds trust with eco-conscious consumers.
         </h2>
         <div class="flex items-center justify-between pt-4">
           <button class="flex items-center gap-2 text-[#1A1A1A] font-medium hover:opacity-70 transition-opacity">
             {@html PlayCircle}
-            Watch video
+            Watch demo
           </button>
           <div class="flex gap-2">
             <button class="p-2 rounded-full border border-gray-200 hover:bg-gray-50 text-gray-400 hover:text-black transition-colors">
@@ -174,10 +174,10 @@
   <section class="py-16 px-6 max-w-7xl mx-auto">
     <div class="grid md:grid-cols-2 gap-12 items-start">
       <h2 class="text-3xl md:text-5xl font-medium tracking-tight text-[#1A1A1A] leading-tight">
-        You deserve to live fully, longer, and better.
+        Nature solved it first. We help you apply it.
       </h2>
       <p class="text-gray-600 text-lg font-light leading-relaxed">
-        Your health is more than numbers, it's your story, your future. Taking care of it today means giving yourself the chance to enjoy more years with strength, clarity, and vitality. We're here to help you protect what truly matters: a healthier, longer life.
+        For 3.8 billion years, nature has been perfecting sustainable solutions. From lotus leaves that self-clean to spider silk stronger than steel, biomimicry unlocks innovation that's both effective and earth-friendly. We translate these principles into commercial products your customers trust.
       </p>
     </div>
   </section>
@@ -201,13 +201,13 @@
   <!-- Testimonial -->
   <section class="py-24 px-6 max-w-4xl mx-auto text-center">
     <blockquote class="text-2xl md:text-3xl font-medium leading-relaxed text-[#1A1A1A] mb-8">
-      "I've always wanted a tool like Holo. It gives people real power over their health in a way that's simple and intuitive. I love how deeply personalized it is, making it easier than ever to understand your body and make smart choices"
+      "Based On Nature gave us the scientific credibility we needed. Parents trust our products now because they can see the transparent research behind every ingredient. Our sales increased 3x in six months."
     </blockquote>
     <div class="flex flex-col items-center gap-3">
-      <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=100&auto=format&fit=crop" alt="Doctor" class="w-12 h-12 rounded-full object-cover" />
+      <img src="/generated/image-confident-eco-conscious-mother-with-chil-1765517706851-9.webp" alt="Customer testimonial" class="w-12 h-12 rounded-full object-cover" />
       <div class="text-center">
-        <div class="font-medium text-sm">Dra. Cécile Merad</div>
-        <div class="text-gray-500 text-xs">Functional Doctor</div>
+        <div class="font-medium text-sm">Sarah Chen</div>
+        <div class="text-gray-500 text-xs">Founder, Pure Roots Wellness</div>
       </div>
     </div>
   </section>
@@ -216,25 +216,25 @@
   <section class="py-12 px-6 max-w-7xl mx-auto border-t border-gray-200">
     <div class="grid md:grid-cols-3 gap-8 text-center md:text-left">
       <div>
-        <h3 class="text-xl font-medium mb-2">15 minutes lab visit.</h3>
-        <p class="text-gray-500 text-sm font-light">In and out. Take your blood and urine test. One minute with the nurse. Quick and simple.</p>
+        <h3 class="text-xl font-medium mb-2">3.8 billion years of R&D.</h3>
+        <p class="text-gray-500 text-sm font-light">Nature has already solved your formulation challenges. We help you apply those solutions.</p>
       </div>
       <div>
-        <h3 class="text-xl font-medium mb-2">24 hours first results.</h3>
-        <p class="text-gray-500 text-sm font-light">Your lab test data, fast. Complete results in five business days.</p>
+        <h3 class="text-xl font-medium mb-2">50K monthly orders at scale.</h3>
+        <p class="text-gray-500 text-sm font-light">Our partners capture the $150B sustainable products market with proven biomimicry formulations.</p>
       </div>
       <div>
-        <h3 class="text-xl font-medium mb-2">Clinician Notes in 1 week.</h3>
-        <p class="text-gray-500 text-sm font-light">From data to a clear Action Plan to guide you along your health path.</p>
+        <h3 class="text-xl font-medium mb-2">Transparent documentation.</h3>
+        <p class="text-gray-500 text-sm font-light">Every ingredient sourced and documented to overcome skepticism from eco-conscious parents.</p>
       </div>
     </div>
   </section>
 
   <!-- How it works -->
-  <section class="py-20 px-6 max-w-7xl mx-auto">
+  <section class="py-20 px-6 max-w-7xl mx-auto" id="solutions">
     <div class="mb-16 max-w-md">
       <h2 class="text-4xl font-medium mb-6">How it works.</h2>
-      <p class="text-gray-600 font-light">With two lab tests a year, daily tracking from your phone and wearables, and guidance from real doctors, Holo helps you understand what's going on inside so you can make smarter, healthier choices.</p>
+      <p class="text-gray-600 font-light">From biomimicry research to scalable production, we guide wellness brands through every step of creating nature-backed products that eco-conscious parents trust.</p>
     </div>
 
     <div class="space-y-6">
@@ -314,33 +314,37 @@
   <!-- Dark Cards Section -->
   <section class="py-8 px-6 max-w-7xl mx-auto">
     <div class="grid md:grid-cols-2 gap-6">
-      <!-- Map Card -->
+      <!-- Sustainability Card -->
       <div class="bg-[#111] rounded-[40px] p-8 md:p-12 text-white min-h-[500px] flex flex-col relative overflow-hidden">
         <div class="relative z-10">
-          <h3 class="text-sm font-medium text-gray-400 mb-2">A five star experience.</h3>
-          <h2 class="text-2xl md:text-3xl font-medium max-w-xs">We partner exclusively with renowned labs.</h2>
+          <h3 class="text-sm font-medium text-gray-400 mb-2">Certified sustainable.</h3>
+          <h2 class="text-2xl md:text-3xl font-medium max-w-xs">Every ingredient traced from source to product.</h2>
         </div>
-        <!-- Abstract Map Visual -->
-        <div class="absolute inset-0 flex items-center justify-center opacity-30 mt-20">
-           <svg viewBox="0 0 200 100" class="w-full h-full text-gray-500 fill-current">
-              <!-- Simplified dot map representation -->
-              {#each Array(100) as _, i}
-                <circle cx={Math.random() * 200} cy={Math.random() * 100} r={Math.random() * 1.5} />
+        <!-- Abstract Nature Pattern Visual -->
+        <div class="absolute inset-0 flex items-center justify-center opacity-20 mt-20">
+           <svg viewBox="0 0 200 200" class="w-full h-full text-primary-600 fill-current">
+              <!-- Leaf/organic pattern -->
+              {#each Array(50) as _, i}
+                <circle cx={Math.random() * 200} cy={Math.random() * 200} r={Math.random() * 2 + 1} />
               {/each}
            </svg>
         </div>
       </div>
 
-      <!-- Privacy Card -->
+      <!-- Transparency Card -->
       <div class="bg-[#111] rounded-[40px] p-8 md:p-12 text-white min-h-[500px] flex flex-col relative overflow-hidden">
         <div class="relative z-10">
-          <h3 class="text-sm font-medium text-gray-400 mb-2">Your data is safe with us.</h3>
-          <h2 class="text-2xl md:text-3xl font-medium max-w-xs">We're built to protect your privacy by default.</h2>
+          <h3 class="text-sm font-medium text-gray-400 mb-2">Complete transparency.</h3>
+          <h2 class="text-2xl md:text-3xl font-medium max-w-xs">Full documentation builds trust with eco-conscious consumers.</h2>
         </div>
-        <!-- Blurred Text Visual -->
+        <!-- Document Visual -->
         <div class="absolute inset-0 flex items-center justify-center mt-20 overflow-hidden">
-           <div class="text-4xl font-mono text-gray-600 opacity-20 blur-sm select-none break-all p-8">
-             Elizab|%b$9yT Willi|I7m/e Magn|&5a! Trigly|?Pm_Lw
+           <div class="text-sm font-mono text-gray-600 opacity-20 select-none p-8 space-y-2">
+             <div>Source: Organic Farm #A2847</div>
+             <div>Certification: USDA Organic</div>
+             <div>Harvest Date: 2024-01-15</div>
+             <div>Processing: Cold-pressed</div>
+             <div>Testing: 3rd Party Verified</div>
            </div>
         </div>
       </div>
@@ -350,64 +354,79 @@
   <!-- Pricing Section -->
   <section class="py-24 px-6 max-w-7xl mx-auto" id="join">
     <div class="text-center mb-16">
-      <h2 class="text-3xl md:text-4xl font-medium mb-4">Preventive healthcare for everyone.</h2>
-      <p class="text-gray-500 font-light max-w-2xl mx-auto">Top-tier testing, real-time tracking, and dedicated clinician guidance—made affordable. Because investing in prevention is the most important investing of your life.</p>
+      <h2 class="text-3xl md:text-4xl font-medium mb-4">Sustainable innovation made accessible.</h2>
+      <p class="text-gray-500 font-light max-w-2xl mx-auto">From biomimicry research to scalable formulations, we provide everything wellness brands need to create nature-backed products that eco-conscious consumers trust.</p>
     </div>
 
     <div class="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
       <!-- Starter Plan -->
       <div class="bg-white rounded-[32px] p-8 flex flex-col">
-        <div class="w-12 h-12 bg-gray-100 rounded-full mb-6"></div>
+        <div class="w-12 h-12 bg-primary-100 rounded-full mb-6 flex items-center justify-center">
+          <div class="w-6 h-6 text-primary-600">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+              <path d="M2 17l10 5 10-5"/>
+              <path d="M2 12l10 5 10-5"/>
+            </svg>
+          </div>
+        </div>
         <h3 class="text-2xl font-medium mb-1">Starter</h3>
-        <p class="text-sm text-gray-500 mb-6">Begin your health journey.</p>
+        <p class="text-sm text-gray-500 mb-6">Begin your biomimicry journey.</p>
         <div class="mb-8">
-          <span class="text-2xl font-medium">€199</span>
-          <span class="text-gray-400 text-sm">/yr</span>
-          <div class="text-[10px] text-pink-500 mt-1 font-medium">Pay in installments with Klarna.</div>
+          <span class="text-2xl font-medium">$2,500</span>
+          <span class="text-gray-400 text-sm">/product</span>
+          <div class="text-[10px] text-primary-600 mt-1 font-medium">One-time formulation fee</div>
         </div>
         <ul class="space-y-4 mb-8 flex-1">
           <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
             <span class="mt-0.5 text-black">{@html Check}</span>
-            Two tests a year covering 60+ essential biomarkers.
+            Access to biomimicry research database for one product category.
           </li>
           <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
             <span class="mt-0.5 text-black">{@html Check}</span>
-            Measure your Biological Age and Aging Rate with every test.
+            Custom nature-based formulation with ingredient sourcing.
           </li>
           <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
             <span class="mt-0.5 text-black">{@html Check}</span>
-            Clinician Notes and personalized Action Plan to guide your health.
+            Basic documentation package for marketing transparency.
           </li>
         </ul>
-        <button class="w-full bg-[#1A1A1A] text-white py-3 rounded-sm font-medium hover:bg-black transition-colors">Join now</button>
+        <button class="w-full bg-[#1A1A1A] text-white py-3 rounded-sm font-medium hover:bg-black transition-colors">Get started</button>
       </div>
 
-      <!-- Core Plan -->
+      <!-- Premium Plan -->
       <div class="bg-white rounded-[32px] p-8 flex flex-col relative overflow-hidden">
-        <div class="absolute top-0 right-0 bg-[#FFF8E1] px-4 py-1 rounded-bl-xl text-xs font-medium text-orange-800">Most Popular</div>
-        <div class="w-12 h-12 bg-orange-100 rounded-full mb-6"></div>
-        <h3 class="text-2xl font-medium mb-1">Core</h3>
-        <p class="text-sm text-gray-500 mb-6">The most advanced longevity membership.</p>
+        <div class="absolute top-0 right-0 bg-primary-100 px-4 py-1 rounded-bl-xl text-xs font-medium text-primary-800">Most Popular</div>
+        <div class="w-12 h-12 bg-primary-200 rounded-full mb-6 flex items-center justify-center">
+          <div class="w-6 h-6 text-primary-700">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"/>
+              <path d="M12 6v6l4 2"/>
+            </svg>
+          </div>
+        </div>
+        <h3 class="text-2xl font-medium mb-1">Premium</h3>
+        <p class="text-sm text-gray-500 mb-6">Complete innovation partnership.</p>
         <div class="mb-8">
-          <span class="text-2xl font-medium">€399</span>
-          <span class="text-gray-400 text-sm">/yr</span>
-          <div class="text-[10px] text-pink-500 mt-1 font-medium">Pay in installments with Klarna.</div>
+          <span class="text-2xl font-medium">$5,000</span>
+          <span class="text-gray-400 text-sm">/month</span>
+          <div class="text-[10px] text-primary-600 mt-1 font-medium">Unlimited product development</div>
         </div>
         <ul class="space-y-4 mb-8 flex-1">
           <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
             <span class="mt-0.5 text-black">{@html Check}</span>
-            Full Core test of 110+ biomarkers plus a Follow-up with 60+ biomarkers to track change.
+            Full biomimicry research access across all product categories.
           </li>
           <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
             <span class="mt-0.5 text-black">{@html Check}</span>
-            First test includes an extended Hormonal and Vitamins panel for deeper insights.
+            Unlimited formulations with testing, validation, and certification support.
           </li>
           <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
             <span class="mt-0.5 text-black">{@html Check}</span>
-            Clinician Notes and a personalized Action Plan built on your most complete lab testing profile.
+            Complete transparency documentation, marketing materials, and scaling support to 50K orders/month.
           </li>
         </ul>
-        <button class="w-full bg-[#1A1A1A] text-white py-3 rounded-sm font-medium hover:bg-black transition-colors">Join now</button>
+        <button class="w-full bg-[#1A1A1A] text-white py-3 rounded-sm font-medium hover:bg-black transition-colors">Get started</button>
       </div>
     </div>
   </section>
@@ -435,19 +454,34 @@
     <div class="max-w-7xl mx-auto">
       <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-8 mb-16">
         <div class="flex items-center gap-2">
-           <div class="relative w-5 h-5 flex items-center justify-center">
-              <div class="absolute w-full h-[1.5px] bg-black rotate-45"></div>
-              <div class="absolute w-full h-[1.5px] bg-black -rotate-45"></div>
-              <div class="absolute w-[1.5px] h-full bg-black"></div>
-              <div class="absolute w-full h-[1.5px] bg-black"></div>
+           <div class="w-6 h-6 text-primary-600">
+             <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path
+                 opacity="0.5"
+                 d="M16.6765 3.05148C18.9425 3.05148 20.7794 4.88843 20.7794 7.15442C20.7794 9.42043 18.9425 11.2574 16.6765 11.2574H12.5735V7.15442C12.5735 4.88843 14.4105 3.05148 16.6765 3.05148Z"
+                 fill="currentColor"
+               />
+               <path
+                 d="M3 7.15442C3 4.88843 4.83695 3.05148 7.10294 3.05148C9.36895 3.05148 11.2059 4.88843 11.2059 7.15442V11.2574H7.10294C4.83695 11.2574 3 9.42043 3 7.15442Z"
+                 fill="currentColor"
+               />
+               <path
+                 d="M7.10294 20.8309C4.83695 20.8309 3 18.9939 3 16.7279C3 14.4619 4.83695 12.625 7.10294 12.625H11.2059V16.7279C11.2059 18.9939 9.36895 20.8309 7.10294 20.8309Z"
+                 fill="currentColor"
+               />
+               <path
+                 d="M20.7794 16.7279C20.7794 18.9939 18.9425 20.8309 16.6765 20.8309C14.4105 20.8309 12.5735 18.9939 12.5735 16.7279V12.625H16.6765C18.9425 12.625 20.7794 14.4619 20.7794 16.7279Z"
+                 fill="currentColor"
+               />
+             </svg>
            </div>
-           <span class="font-bold text-lg tracking-widest">HOLO</span>
+           <span class="font-bold text-lg">Based On Nature</span>
         </div>
         
         <nav class="flex flex-wrap gap-6 md:gap-8 text-xs font-medium text-gray-600">
-          <a href="#" class="hover:text-black">Biomarkers</a>
-          <a href="#" class="hover:text-black">FAQ</a>
-          <a href="#" class="hover:text-black">Blog</a>
+          <a href="#solutions" class="hover:text-black">Solutions</a>
+          <a href="#faq" class="hover:text-black">FAQ</a>
+          <a href="#" class="hover:text-black">Research</a>
           <a href="#" class="hover:text-black">Terms & Conditions</a>
           <a href="#" class="hover:text-black">Privacy Policy</a>
         </nav>
@@ -460,9 +494,9 @@
       </div>
 
       <div class="text-[10px] text-gray-400 leading-relaxed max-w-5xl">
-        <p class="mb-2">Holo is a technology company, not a laboratory or medical provider. All lab and medical services are provided by independent third parties, who set their own pricing. While Holo facilitates access to certain providers, it does not recommend or refer healthcare providers. Holo does not offer medical advice, lab services, diagnosis, treatment, or medical opinions. All services do not replace medical care or consultations with a licensed provider. If you have questions about lab results, consult a primary care physician or other licensed provider. All information provided by Holo is for general informational purposes only.</p>
-        <p>Holo's membership pricing includes prepaid access to certain third-party lab services. Some home and lab draw fees may apply. Additional payments beyond standard membership pricing. For more details, see our Terms & Conditions.</p>
-        <p class="mt-2">By providing your phone number, you agree to receive text messages from Holo. Message and data rates may apply. Message frequency varies.</p>
+        <p class="mb-2">Based On Nature is a biomimicry research and product innovation company. We provide formulation consulting and research services to wellness brands. All product formulations are developed in partnership with certified laboratories and manufacturing facilities. Based On Nature does not manufacture products directly but connects brands with verified sustainable suppliers and production partners.</p>
+        <p>Pricing includes research, formulation development, and documentation services. Manufacturing, testing, and certification costs are separate and depend on product specifications and volume. For complete pricing details, see our Terms & Conditions.</p>
+        <p class="mt-2">By providing your contact information, you agree to receive communications from Based On Nature about our services. You can unsubscribe at any time.</p>
       </div>
     </div>
   </footer>
